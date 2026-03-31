@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Name=AWS Switcher
+Comment=System tray AWS profile switcher
+Exec=python -m aws_switcher
+Icon=aws-white.png
+Categories=Utility;
+StartupNotify=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Path=.
